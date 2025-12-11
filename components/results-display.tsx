@@ -78,7 +78,59 @@ export default function ResultsDisplay() {
                 Stage 1 - Mild Non-Proliferative Diabetic Retinopathy detected. Recommend routine follow-up examination
                 in 3-6 months. Continue glycemic control management.
               </p>
-            </div>
+              
+            </div><div className="flex items-start gap-4 rounded-2xl border p-6 bg-muted">
+              <span className="text-2xl">📋</span>
+  
+
+  <div>
+    <h4 className="text-lg font-bold text-foreground mb-2">
+      Clinical Recommendation
+    </h4>
+
+    <p className="text-foreground/70">
+                 Stage 2 - Moderate Non-Proliferative Diabetic Retinopathy detected. Recommend follow-up examination in approximately 2–3 months to monitor
+                 disease progression. Reinforce strict glycemic control, blood pressure management, and regular ophthalmic evaluations.
+    </p>
+            </div><div className="flex items-start gap-4 rounded-2xl border p-6 bg-muted">
+              <span className="text-2xl">📋</span>
+   
+
+  <div>
+    <h4 className="text-lg font-bold text-foreground mb-2">
+      Clinical Recommendation
+    </h4>
+
+    <p className="text-foreground/70">
+      Stage 3 – Severe Non-Proliferative Diabetic Retinopathy detected.  Recommend closer monitoring with a follow-up examination in 1–2 months. 
+      Evaluate for potential macular edema and prepare for referral to a retinal specialist if progression continues. Maintain strict glycemic, blood pressure, 
+      and lipid control.
+    </p>
+            </div><div className="flex items-start gap-4 rounded-2xl border p-6 bg-muted">
+              <span className="text-2xl">📋</span>
+     
+
+  <div>
+    <h4 className="text-lg font-bold text-foreground mb-2">
+      Clinical Recommendation
+    </h4>
+
+    <p className="text-foreground/70">
+      Stage 4 – Proliferative Diabetic Retinopathy detected. Recommend urgent referral to a retinal specialist for further evaluation and potential 
+      treatment options such as laser therapy or intravitreal interventions. 
+      Advise close follow-up and continued maintenance of optimal glycemic and 
+      blood pressure control.
+    </p>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+             
+              
+
           </div>
         </div>
       </div>

@@ -40,7 +40,7 @@ export default function Contact() {
                     href="mailto:contact@retinalai.com"
                     className="text-foreground/70 hover:text-primary transition-colors"
                   >
-                    contact@retinalai.com
+                    support@retinalai.com
                   </a>
                 </div>
               </div>
@@ -52,7 +52,8 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Phone</h4>
                   <a href="tel:+1-555-0123" className="text-foreground/70 hover:text-primary transition-colors">
-                    +1 (555) 0123
+                    +91 7679793636 /
+                    +91 7044485965
                   </a>
                 </div>
               </div>
@@ -64,11 +65,11 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Office</h4>
                   <p className="text-foreground/70">
-                    Medical Innovation Hub
+                    OmDayal Group of Institutions (CSE - LAB 2)
                     <br />
-                    San Francisco, CA 94105
+                    Uluberia, Howrah
                     <br />
-                    United States
+                    West Bengal, India
                   </p>
                 </div>
               </div>
@@ -86,7 +87,7 @@ export default function Contact() {
                 type="text"
                 value={formState.name}
                 onChange={(e) => setFormState({ ...formState, name: e.target.value })}
-                placeholder="Dr. Jane Smith"
+                placeholder="Dr. Maharshi Adhikary"
                 className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:outline-none focus:border-primary transition-colors"
               />
             </div>
@@ -100,7 +101,7 @@ export default function Contact() {
                 type="email"
                 value={formState.email}
                 onChange={(e) => setFormState({ ...formState, email: e.target.value })}
-                placeholder="jane@hospital.com"
+                placeholder="maharshiadhikary@tamlukhospital.com"
                 className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:outline-none focus:border-primary transition-colors"
               />
             </div>
@@ -113,7 +114,7 @@ export default function Contact() {
                 id="message"
                 value={formState.message}
                 onChange={(e) => setFormState({ ...formState, message: e.target.value })}
-                placeholder="Tell us about your healthcare facility..."
+                placeholder="Tell us about your healthcare facility. We are happy to help! ..."
                 rows={4}
                 className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:outline-none focus:border-primary transition-colors resize-none"
               />

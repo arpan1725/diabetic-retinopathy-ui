@@ -102,6 +102,7 @@ export default function Footer() {
 
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            
             <p className="text-sm text-background/70">© {currentYear} RetinalAI. All rights reserved.</p>
             <div className="flex gap-4">
               <a href="#" className="p-2 hover:bg-primary/20 rounded-lg transition-colors">

@@ -6,6 +6,10 @@ import ResultsDisplay from "@/components/results-display"
 import Team from "@/components/team"
 import Contact from "@/components/contact"
 import Footer from "@/components/footer"
+import VideoCallFrontEnd from "@/components/ui/VideoCallFrontEnd"
+import ourteam from "@/components/ui/ourteam"
+import OurTeam from "@/components/ui/ourteam"
+
 
 export default function Page() {
   return (
@@ -15,7 +19,9 @@ export default function Page() {
       <Features />
       <ImageUpload />
       <ResultsDisplay />
+      <VideoCallFrontEnd/>
       <Team />
+      <OurTeam/>
       <Contact />
       <Footer />
     </main>

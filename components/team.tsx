@@ -1,25 +1,25 @@
 export default function Team() {
   const team = [
     {
-      name: "Dr. Sarah Chen",
+      name: "Dr. Seema Dixit",
       role: "Chief Medical Officer",
       expertise: "Ophthalmology",
       image: "/professional-woman-doctor.jpg",
     },
     {
-      name: "Prof. James Mitchell",
+      name: "Prof. Raajan Kumar Chatterjee",
       role: "AI Research Lead",
       expertise: "Deep Learning",
       image: "/professional-man-scientist.jpg",
     },
     {
-      name: "Dr. Priya Patel",
+      name: "Dr. Mohini Sharma",
       role: "Clinical Validation Lead",
       expertise: "Retinopathy",
-      image: "/professional-woman-researcher.jpg",
+      image: "/professional-woman-researcher.png",
     },
     {
-      name: "Michael Torres",
+      name: "Mr. Alen D'Souza",
       role: "Engineering Director",
       expertise: "Healthcare Tech",
       image: "/professional-man-engineer.jpg",

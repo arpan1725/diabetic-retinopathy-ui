@@ -49,7 +49,7 @@ export default function ResultsDisplay() {
             <h3 className="text-xl font-bold text-foreground mb-6">Clinical Findings</h3>
             <div className="space-y-4">
               {findings.map((finding, idx) => (
-                <div key={idx} className="flex items-center justify-between p-4 bg-muted/50 rounded-lg">
+                <div key={idx} className="flex items-center justify-between p-1 bg-muted/50 rounded-lg">
                   <div className="flex-1">
                     <p className="font-medium text-foreground">{finding.stage}</p>
                     <p className={`text-sm ${finding.status === "Detected" ? "text-accent" : "text-foreground/60"}`}>
@@ -67,8 +67,8 @@ export default function ResultsDisplay() {
         </div>
 
         {/* Overall Assessment */}
-        <div className="mt-8 p-8 bg-accent/10 border border-accent/30 rounded-2xl">
-          <div className="flex items-start gap-4">
+        <div className="mt-8 p-8 bg-accent/ border border-accent/30 rounded-2xl">
+          <div className="flex:2 items-start gap-20">
             <div className="w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center flex-shrink-0">
               <span className="text-2xl">📋</span>
             </div>
@@ -79,50 +79,46 @@ export default function ResultsDisplay() {
                 in 3-6 months. Continue glycemic control management.
               </p>
               
-            </div><div className="flex items-start gap-4 rounded-2xl border p-6 bg-muted">
+            </div><div className="flex:2 items-start gap-20 rounded-2xl border p-1 bg-muted">
               <span className="text-2xl">📋</span>
   
 
   <div>
-    <h4 className="text-lg font-bold text-foreground mb-2">
-      Clinical Recommendation
-    </h4>
+              <h4 className="text-lg font-bold text-foreground mb-2">Clinical Recommendation </h4>
 
-    <p className="text-foreground/70">
+              <p className="text-foreground/70">
                  Stage 2 - Moderate Non-Proliferative Diabetic Retinopathy detected. Recommend follow-up examination in approximately 2–3 months to monitor
                  disease progression. Reinforce strict glycemic control, blood pressure management, and regular ophthalmic evaluations.
-    </p>
-            </div><div className="flex items-start gap-4 rounded-2xl border p-6 bg-muted">
+              </p>
+            </div><div className="flex:2 items-start gap-20 rounded-2xl border p-1 bg-muted">
               <span className="text-2xl">📋</span>
    
-
-  <div>
-    <h4 className="text-lg font-bold text-foreground mb-2">
+<div>
+              <h4 className="text-lg font-bold text-foreground mb-2">
       Clinical Recommendation
-    </h4>
+              </h4>
 
-    <p className="text-foreground/70">
-      Stage 3 – Severe Non-Proliferative Diabetic Retinopathy detected.  Recommend closer monitoring with a follow-up examination in 1–2 months. 
-      Evaluate for potential macular edema and prepare for referral to a retinal specialist if progression continues. Maintain strict glycemic, blood pressure, 
-      and lipid control.
-    </p>
-            </div><div className="flex items-start gap-4 rounded-2xl border p-6 bg-muted">
+              <p className="text-foreground/70">
+                 Stage 3 – Severe Non-Proliferative Diabetic Retinopathy detected.  Recommend closer monitoring with a follow-up examination in 1–2 months. 
+                 Evaluate for potential macular edema and prepare for referral to a retinal specialist if progression continues. Maintain strict glycemic, blood pressure, 
+                 and lipid control.
+              </p>
+            </div><div className="flex:2 items-start gap-20 rounded-2xl border p-1 bg-muted">
               <span className="text-2xl">📋</span>
      
 
   <div>
-    <h4 className="text-lg font-bold text-foreground mb-2">
+               <h4 className="text-lg font-bold text-foreground mb-2">
       Clinical Recommendation
-    </h4>
+               </h4>
 
-    <p className="text-foreground/70">
-      Stage 4 – Proliferative Diabetic Retinopathy detected. Recommend urgent referral to a retinal specialist for further evaluation and potential 
-      treatment options such as laser therapy or intravitreal interventions. 
-      Advise close follow-up and continued maintenance of optimal glycemic and 
-      blood pressure control.
-    </p>
-  </div>
-</div>
+               <p className="text-foreground/70">
+                  Stage 4 – Proliferative Diabetic Retinopathy detected. Recommend urgent referral to a retinal specialist for further evaluation and potential 
+                  treatment options such as laser therapy or intravitreal interventions. 
+                  Advise close follow-up and continued maintenance of optimal glycemic and 
+                  blood pressure control.
+                 </p>
+            </div></div>
 
 </div>
 

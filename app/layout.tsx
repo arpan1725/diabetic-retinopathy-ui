@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "RetinalAI - Diabetic Retinopathy Detection",
+  title: "Retinal Infinite- Diabetic Retinopathy Detection",
   description: "Advanced AI-powered diabetic retinopathy detection system for early diagnosis and patient care",
   generator: "v0.app",
   icons: {

@@ -1,3 +1,10 @@
+import EyeGame from "./eye-game";
+import Eye3DIcon from "./Eye-3d-icon"; // "./eye-3d-icon" 
+
+
+
+
+
 import { ArrowRight } from "lucide-react"
 
 export default function Hero() {
@@ -7,15 +14,17 @@ export default function Hero() {
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-20 right-1/4 w-72 h-72 bg-accent/5 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-1/3 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
-      </div>
+      </div> 
+      
 
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto"> 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
-          <div className="space-y-6">
+          <div className="space-y-6"> 
             <div className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-semibold">
-              ✓ FDA-Grade Accuracy
-            </div>
+             
+             ✓ FDA-Grade Accuracy <EyeGame />
+            </div> 
 
             <h1 className="text-5xl md:text-6xl font-bold text-foreground leading-tight">
               Early Detection Saves <span className="text-primary">Sight</span>
@@ -51,9 +60,15 @@ export default function Hero() {
               </div>
             </div>
           </div>
+          
+
 
           {/* Right Illustration */}
           <div className="relative h-96 md:h-full">
+          
+          
+            
+
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl flex items-center justify-center">
               <div className="relative w-64 h-64">
                 {/* Eye illustration */}
@@ -66,6 +81,9 @@ export default function Hero() {
                     </div>
                   </div>
                 </div>
+                
+               
+                
                 {/* Scan lines animation */}
                 <svg className="absolute inset-0 w-full h-full" viewBox="0 0 256 256">
                   <circle
@@ -94,6 +112,10 @@ export default function Hero() {
           </div>
         </div>
       </div>
+     
+
     </section>
+  
+
   )
 }

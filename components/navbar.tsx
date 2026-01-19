@@ -24,7 +24,7 @@ export default function Navbar() {
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">◉</span>
             </div>
-            <span className="font-semibold text-lg hidden sm:inline">RetinalAI</span>
+            <span className="font-semibold text-lg hidden sm:inline">RetinaInfinite</span>
           </Link>
 
           {/* Desktop Navigation */}

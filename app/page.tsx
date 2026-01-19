@@ -12,6 +12,7 @@ import Footer from "@/components/footer"
 import VideoCallFrontEnd from "@/components/ui/VideoCallFrontEnd"
 import OurTeam from "@/components/ui/ourteam"
 import Chatbot from "@/components/ui/chatbot"
+import PaymentPage from "@/components/PaymentPage"
 
 export default function Page() {
   const [isChatbotVisible, setIsChatbotVisible] = useState(false)
@@ -36,6 +37,7 @@ export default function Page() {
 
       {/* Website Content */}
       <Navbar />
+      <PaymentPage />
       <Hero />
       <Features />
       <ImageUpload />

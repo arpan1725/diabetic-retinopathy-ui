@@ -161,3 +161,4 @@ export default function PaymentPage() {
     </div>
   );
 }
+//tHIS PAGE IS FOR PAYMENT OPTIONS FOR SUBSCRIPTION PLANS

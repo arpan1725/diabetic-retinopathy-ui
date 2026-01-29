@@ -13,6 +13,9 @@ import VideoCallFrontEnd from "@/components/ui/VideoCallFrontEnd"
 import OurTeam from "@/components/ui/ourteam"
 import Chatbot from "@/components/ui/chatbot"
 import PaymentPage from "@/components/PaymentPage"
+import loginlogout from "@/components/loginlogout"
+import LoginLogout from "@/components/loginlogout"
+
 
 export default function Page() {
   const [isChatbotVisible, setIsChatbotVisible] = useState(false)
@@ -37,7 +40,8 @@ export default function Page() {
 
       {/* Website Content */}
       <Navbar />
-      <PaymentPage />
+      {/* <PaymentPage /> */}
+      <LoginLogout/>
       <Hero />
       <Features />
       <ImageUpload />

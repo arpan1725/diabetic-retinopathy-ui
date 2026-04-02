@@ -12,15 +12,20 @@ import Footer from "@/components/footer"
 import VideoCallFrontEnd from "@/components/ui/VideoCallFrontEnd"
 import OurTeam from "@/components/ui/ourteam"
 import Chatbot from "@/components/ui/chatbot"
+<<<<<<< HEAD
 import PaymentPage from "@/components/PaymentPage"
 import loginlogout from "@/components/loginlogout"
 import LoginLogout from "@/components/loginlogout"
+=======
+import DailyTipPopup from "@/components/dailytippopup";
+>>>>>>> 658ca21 ( update code dailytip)
 
 
 export default function Page() {
   const [isChatbotVisible, setIsChatbotVisible] = useState(false)
 
   return (
+    
     <main className="min-h-screen bg-background relative">
       
       {/* Chatbot Toggle Button */}
@@ -36,7 +41,11 @@ export default function Page() {
         <div className="fixed bottom-20 right-6 w-80 h-96 bg-white shadow-2xl rounded-xl z-50">
           <Chatbot />
         </div>
+       
       )}
+
+       <DailyTipPopup userId="test-user" />
+       
 
       {/* Website Content */}
       <Navbar />
@@ -54,3 +63,5 @@ export default function Page() {
     </main>
   )
 }
+
+

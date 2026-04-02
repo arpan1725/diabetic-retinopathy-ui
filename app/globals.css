@@ -252,3 +252,20 @@
 .eye-3d:hover {
   transform: rotateX(15deg) rotateY(-15deg) scale(1.05);
 }
+
+
+
+@keyframes slideIn {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slideIn {
+  animation: slideIn 0.35s ease-out;
+}

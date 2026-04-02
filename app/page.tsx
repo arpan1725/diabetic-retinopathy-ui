@@ -12,13 +12,13 @@ import Footer from "@/components/footer"
 import VideoCallFrontEnd from "@/components/ui/VideoCallFrontEnd"
 import OurTeam from "@/components/ui/ourteam"
 import Chatbot from "@/components/ui/chatbot"
-<<<<<<< HEAD
+
 import PaymentPage from "@/components/PaymentPage"
 import loginlogout from "@/components/loginlogout"
 import LoginLogout from "@/components/loginlogout"
-=======
+
 import DailyTipPopup from "@/components/dailytippopup";
->>>>>>> 658ca21 ( update code dailytip)
+
 
 
 export default function Page() {
